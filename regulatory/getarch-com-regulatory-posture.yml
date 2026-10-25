@@ -1,0 +1,28 @@
+generated: '2026-10-25'
+source: https://getarch.com/privacy
+method: searched
+signals:
+  data_retention:
+    - evidence:
+        source: https://getarch.com/privacy
+        http_status: 200
+        fetched: true
+        quote: "We retain advertising platform data for as long as a customer's account is connected and for a limited period thereafter as needed to provide the services and comply with legal obligations."
+        section: "Retention and deletion"
+        note: "Specifies retention period for advertising platform data."
+  data_subject_request:
+    - evidence:
+        source: https://getarch.com/privacy
+        http_status: 200
+        fetched: true
+        quote: "A user may request deletion of their data, or the data associated with their connected advertising account, by contacting us at [email protected]. We will review and act on valid deletion requests in accordance with applicable law and the platform's own data handling requirements."
+        section: "Retention and deletion"
+        note: "Provides mechanism for data deletion requests."
+  subprocessors:
+    - evidence:
+        source: https://getarch.com/privacy
+        http_status: 200
+        fetched: true
+        quote: "Data is stored on secured servers run by our cloud provider Amazon Web Services."
+        section: "How we store and protect it"
+        note: "AWS is used as a subprocessor for data storage."

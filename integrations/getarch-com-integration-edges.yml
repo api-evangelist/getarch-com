@@ -1,0 +1,22 @@
+generated: '2026-10-25'
+method: none
+source:
+- https://zapier.com/apps/getarch-com/integrations
+- https://zapier.com/apps/getarch/integrations
+- https://zapier.com/apps/arch/integrations
+- https://n8n.io/integrations/getarch-com/
+- https://n8n.io/integrations/getarch/
+- https://composio.dev/toolkits/getarch-com
+- https://monid.ai/tools/getarch-com
+checked:
+- https://composio.dev/toolkits/getarch-com
+- https://monid.ai/tools/getarch-com
+- https://n8n.io/integrations/getarch-com/
+- https://n8n.io/integrations/getarch/
+- https://zapier.com/apps/arch/integrations
+- https://zapier.com/apps/getarch-com/integrations
+- https://zapier.com/apps/getarch/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []

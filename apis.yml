@@ -1,25 +1,68 @@
 aid: getarch-com
+
 name: Arch
-description: 'Arch is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio;
-  backed by coatue) and added to the network as a stub for full-pipeline profiling.'
+
+image: https://getarch.com/og-image.png
+
+description: 'Arch provides AI‑powered marketing software for HVAC, plumbing and electrical contractors, integrating with ServiceTitan to automate lead discovery, churn prevention, cross‑sell intelligence and revenue growth. The platform scans CRM data, launches multi‑channel campaigns and tracks performance, delivering measurable ROI for home‑services businesses.'
+
 url: https://raw.githubusercontent.com/api-evangelist/getarch-com/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-25 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-25'
+
 modified: '2026-10-25'
+
 tags:
 - Company
-apis: []
+- AI
+- Marketing
+- Home Services
+- ServiceTitan
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
-x-backed-by:
-- coatue
+
 common:
+- type: LLMsTxt
+  url: llms/getarch-com-llms.txt
+- type: Hosts
+  url: hosts/getarch-com-hosts.yml
+- type: Vendors
+  url: vendors/getarch-com-vendors.yml
+- type: DomainSecurity
+  url: security/getarch-com-domain-security.yml
 - type: Website
   url: https://www.getarch.com/
+- type: Documentation
+  url: https://getarch.com/docs
+- type: Blog
+  url: https://getarch.com/blog
+- type: TermsOfService
+  url: https://getarch.com/terms
+- type: PrivacyPolicy
+  url: https://getarch.com/privacy
+- type: Pricing
+  url: https://getarch.com/pricing
+
+apis: []
+
+x-backed-by:
+- coatue
+x-enrichment:
+  date: '2026-10-25'
+  status: enriched
+  artifacts_added: 10
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local
